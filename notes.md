@@ -4,6 +4,8 @@
 
 
 
-### interface
-- Header
- - Informations
+### interface [homepage]
+- Header with navbar
+- good introduction media
+- static footer
+- perfect responsible page
