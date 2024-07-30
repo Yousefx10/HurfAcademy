@@ -1,4 +1,8 @@
-body{margin:0;}
+body{
+    margin:0;
+    background-color: blanchedalmond;
+}
+
 .container{
     width: 80%;
     max-width: 1800px;
@@ -9,16 +13,48 @@ body{margin:0;}
     height:500px;
 }
 
+/*NavBar*/
+.container nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+  .container nav ul li {
+    float: left;
+  }
+  
+  .container nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.8s ease;
+  }
+  
+  .container nav ul li a:hover:not(.active) {
+    background-color: red;
+  }
+  
+  .container nav ul li .active {
+    background-color: #04AA6D;
+  }
+
+
 
 .modernBTN{
     padding: 10px;
     border: none;
     cursor: pointer;
     width: 100px;
-    transition: background-color 0.8s ease;
+
     font-weight: bold;
     font-size: 1em;
 }
 .modernBTN:hover{
     background-color: lightblue;
 }
+
+
