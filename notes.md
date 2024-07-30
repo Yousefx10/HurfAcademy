@@ -6,6 +6,6 @@
 
 ### interface [homepage]
 - Header with navbar
-- good introduction media
-- static footer
-- perfect responsible page
+- Good introduction media
+- Static footer
+- Perfect responsive page
