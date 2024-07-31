@@ -143,12 +143,25 @@ body{
 
 .footer{
   text-align: center;
+  color: rgb(121, 120, 120) !important;
+
 }
 .footer ul{
   padding: 0;
+  
 }
 .footer ul li{
   display: inline;
   list-style-type: none;
   margin: 5px;
+  
+}
+
+.footer ul li a{
+  text-decoration: none;
+  color: rgb(121, 120, 120);
+
+}
+.footer ul li a:hover{
+  text-decoration: underline;
 }
