@@ -115,7 +115,16 @@
 
 
 
-
+<script>
+    window.addEventListener('scroll', function() {
+        var nav = document.querySelector('.container nav');
+        if (window.scrollY > 120) {
+            nav.classList.add('sticky');
+        } else {
+            nav.classList.remove('sticky');
+        }
+    });
+</script>
 <div>THE FOOTER SECTION</div>
         </div>
     </body>
