@@ -1,6 +1,7 @@
 body{
     margin:0;
     background-color: blanchedalmond;
+
 }
 
 .container{
@@ -11,6 +12,7 @@ body{
     text-align: center;
     box-sizing: border-box;
     height:2500px;
+    
 }
 
 .container nav{
@@ -140,10 +142,22 @@ body{
   }
 }
 
+.test{
 
+
+  
+}
 .footer{
   text-align: center;
-  color: rgb(121, 120, 120) !important;
+  color: rgb(121, 120, 120);
+
+  
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+
 
 }
 .footer ul{
