@@ -139,3 +139,16 @@ body{
       grid-template-columns: 1fr;
   }
 }
+
+
+.footer{
+  text-align: center;
+}
+.footer ul{
+  padding: 0;
+}
+.footer ul li{
+  display: inline;
+  list-style-type: none;
+  margin: 5px;
+}
