@@ -24,7 +24,7 @@ body{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: black;
+    /* background-color: black; */
 
 
   
@@ -35,7 +35,7 @@ body{
   
   .container nav ul li a {
     display: block;
-    color: white;
+    /* color: white; */
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -43,7 +43,7 @@ body{
   }
   
   .container nav ul li a:hover:not(.active) {
-    background-color: red;
+    color: #337ab7;
   }
   
   .container nav ul li .active {
